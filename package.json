@@ -1,0 +1,21 @@
+{
+  "name": "artist-enricher-api",
+  "version": "0.0.1",
+  "description": "A REST API (GET requests) to retrieve rich information about a muscial artist: e.g. http://host:port/artists?artist=the+beatles",
+  "repository": "https://github.com/lucasjellema/aced-cloud-demo-ofmw2016-valencia",
+  "main": "artist-enricher-api.js",
+  "scripts": {
+    "start": "node artist-enricher-api.js",
+    "monitor": "nodemon artist-enricher-api.js"
+  },
+  "license": "Apache Version 2.0",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  }
+}
